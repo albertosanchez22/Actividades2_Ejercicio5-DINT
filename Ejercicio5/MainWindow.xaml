@@ -1,0 +1,20 @@
+﻿<Window x:Class="Ejercicio5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Input" HorizontalAlignment="Left" Margin="49,90,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" Height="127" TextChanged="Input_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="49,56,0,0" Text="Texto" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <CheckBox Content="Negrita" HorizontalAlignment="Left" Margin="329,107,0,0" VerticalAlignment="Top" FontWeight="Bold"  Checked="CheckBox_Checked_1" Unchecked="CheckBox_Uncheked_1"/>
+        <CheckBox Content="Cursiva" HorizontalAlignment="Left" Margin="446,107,0,0" VerticalAlignment="Top"  Checked="CheckBox_Checked" Unchecked="CheckBox_Uncheked" FontStyle="Italic"/>
+        <RadioButton Content="Azul" HorizontalAlignment="Left" Margin="595,72,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Rojo" HorizontalAlignment="Left" Margin="595,107,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1"/>
+        <RadioButton Content="Verde" HorizontalAlignment="Left" Margin="595,142,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_2"/>
+        <TextBlock x:Name="Resultado" TextTrimming="CharacterEllipsis" HorizontalAlignment="Left" Margin="74,293,0,0" Text="a" TextWrapping="Wrap" VerticalAlignment="Top" Height="79" Width="663" Foreground="Black" Background="#FFCCF3CB"/>
+
+    </Grid>
+</Window>
